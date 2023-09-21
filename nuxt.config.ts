@@ -3,7 +3,7 @@ import {resolve} from "path";
 export default defineNuxtConfig({
   devtools: { enabled: true },
   alias:{
-    asserts: "/<rootDir>/assets"
+    asserts: "/<rootDir>/assets",
   },
   css:['~/assets/main.scss'],
   postcss: {
